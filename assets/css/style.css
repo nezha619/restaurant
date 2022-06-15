@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Yeseva One', cursive;
+}
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a, a:hover {
+    text-decoration: none;
+    color: black;
+}
+img {
+    vertical-align: middle;
+}
+:root {
+    --primary_color: #0771b9;
+    --secondary_color: #5bc5f3;
+}
+main{
+    overflow: hidden;
+}
+/* common css end */
+
+/* Navigation Part start  */
+.navigation-part{
+    background-image: url(../images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    margin-left: 10px;
+}
+.nav-con ul li a{
+    color: white !important;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 18px;
+}
+.social-icons li a i{
+    color: #ffbf00;
+    margin: 0 8px;
+}
+.navbar-nav .nav-link{
+    margin-left: 5px;
+}
+/* Navigation Part end  */
+
+/* hero part start  */
+.hero-con h1{
+    font-size: 90px;
+}
+.hero-btn-black{
+    padding: 8px 20px;
+    border: none;
+    background: rgba(0, 0, 0, .5);
+    color: white;
+    text-transform: uppercase;
+    margin: 50px 10px;
+    font-family: 'Lato', sans-serif;
+}
+.hero-btn-white{
+    padding: 8px 20px;
+    border: none;
+    background: rgba(255, 255, 255, .3);
+    color: white;
+    text-transform: uppercase;
+    margin: 50px 10px;
+    font-family: 'Lato', sans-serif;
+}
+/* hero part end  */
+
+/* about part start  */
+.about-con-main{
+    background-image: url(../images/reservation-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+/* about part end  */
+
+/* ingredients part start  */
+.ingre-con{
+    position: relative;
+}
+.content{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-60%, -60%);
+    color: white;
+    background: rgba(0, 0, 0, .5);
+    width: 450px;
+    height: 450px;
+    padding: 50px;
+}
+.content p{
+    font-size: 16px;
+}
+.ingre-con ul li img{
+    width: 70px;
+    padding-top: 20px;
+}
+/* ingredients part end  */
+
+/* menu part start  */
+.menu-con-main{
+    background-image: url(../images/reservation-bg.png);
+    color: #cc9900;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu-con h3{
+    text-align: center;
+}
+.menu-con p{
+    font-size: 14px;
+    text-align: left;
+    color: #828383;
+    margin-top: 5px;
+}
+.menu-price{
+    border-bottom: 1px solid #e7e2ca;
+}
+.special-menu{
+    border: 1px solid #e7e2ca;
+    padding: 5px;
+}
+.special-btn{
+    background: #d8bd71;
+    color: white;
+    display: flex;
+    position: relative;
+    left: 100%;
+    transform: translateX(-100%);
+    border: none;
+    padding: 0 10px;
+}
+.upper-menu{
+    position: relative;
+    bottom: 18%;
+    transform: translateX(-18%,);
+}
+/* menu part end  */
+
+/* review part start  */
+.review-con{
+    position: relative;
+}
+.review-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: rgba(0, 0, 0, .8);
+    width: 500px;
+    height: 350px;
+    padding: 50px;
+}
+.review-devied{
+    padding-bottom: 20px;
+}
+.review-content p{
+    font-family: 'Gentium Book Basic', serif;
+}
+.quate-icon{
+    color: #8d8f8a;
+    font-size: 18px;
+}
+/* review part end  */
+
+/* reservation part start  */
+.reservation-part{
+    background-image: url(../images/reservation-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+.reserv-table label{
+    color: #cc9900;
+    font-weight: 600;
+    margin: 5px;
+    padding: 5px;
+}
+.reserv-table input{
+    padding: 0 5px;
+    font-style: italic;
+}
+.book-btn{
+    background: #c9a131;
+    margin: 5px;
+    padding: 5px 50px;
+    color: white;
+    border: none;
+    position: relative;
+    left: 0%;
+    transform: translateX(-0%);
+}
+/* reservation part end  */
+
+/* footer part start  */
+.footer-part{
+    background: #191919;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.footer-head img{
+    margin: 10px 0 15px;
+}
+.time p{
+    padding: 0;
+    margin: 0;
+}
+.time ul li a i{
+    margin: 50px 15px;
+    color: white;
+}
+/* footer part end  */
